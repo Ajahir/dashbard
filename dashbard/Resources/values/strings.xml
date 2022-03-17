@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">dashbard</string>
+    <string name="action_settings">Settings</string>
+	<string name="dashboard">Dashboard</string>
+	<string name="january">January</string>
+	<string name="Daily_spend_target">Daily spend target: </string>
+	<string name="see_all">See All</string>
+	<string name="rs">500</string>
+	<string name="seventy">70"%"</string>
+	<string name="daily_spend">DAILY SPENDS</string>
+	<string name="Net_Banking">Net Banking</string>
+	<string name="netbankprice">$365.89</string>
+	<string name="foodprice">$165.99</string>
+	<string name="food">Food and Drink</string>
+	<string name="clothprice">$65.09</string>
+	<string name="clothes">Clothes</string>
+	<string name="netbankdate">Today</string>
+	<string name="fooddate">26 Jan,2019</string>
+	<string name="clothdate">15 Jan,2019</string>
+	<string name="dialyspendprice">$16.67</string>
+	<string name="wishlist">WISHLIST</string>
+	<string name="tee">Tee</string>
+	<string name="gym">GYM</string>
+	<string name="bike">Bike</string>
+	<string name="saving">Saving</string>
+	<string name="title_home">Home</string>
+	<string name="title_dashboard">Dashboard</string>
+	<string name="title_notifications">Notifications</string>
+	<string name="location">location</string>
+</resources>
