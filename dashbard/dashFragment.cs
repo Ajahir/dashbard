@@ -39,7 +39,7 @@ namespace dashbard
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
             View view = inflater.Inflate(Resource.Layout.layout2, container, false);
-            return base.OnCreateView(inflater, container, savedInstanceState);
+            return view;
         }
     }
 }

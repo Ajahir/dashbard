@@ -27,4 +27,7 @@
 	<string name="title_dashboard">Dashboard</string>
 	<string name="title_notifications">Notifications</string>
 	<string name="location">location</string>
+	<string name="persons">persons</string>
+	<string name="fav">fav</string>
+	<string name="home">home</string>
 </resources>

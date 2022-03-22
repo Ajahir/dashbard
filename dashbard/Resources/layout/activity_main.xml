@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+
+    >
     <FrameLayout
-       android:layout_width="match_parent"
-       android:layout_height="670dp"
-       android:id="@+id/frameLayout">
-
-      <include
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-            layout="@layout/layout2"/>
-
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/framelayoutdata">
+       
         </FrameLayout>
     <com.google.android.material.bottomappbar.BottomAppBar
        android:id="@+id/bottomAppBar"
        android:layout_width="match_parent"
-        app:fabCradleRoundedCornerRadius="10dp"
-       android:layout_height="84dp"
+       android:layout_height="@dimen/size84dp"
        android:background="@drawable/shape_rect"
        android:layout_alignParentBottom="true"
       android:layout_alignParentEnd="true">
@@ -29,25 +27,25 @@
             
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/size70dp"
         app:menu="@menu/navigation"
         app:itemIconTint="@drawable/icon_selector"/>
 
      </com.google.android.material.bottomappbar.BottomAppBar>
+    
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             
-            android:layout_width="56dp"
-            android:layout_height="56dp"
+            android:layout_width="@dimen/size56dp"
+            android:layout_height="@dimen/size56dp"
             android:id="@+id/floatingActionButtonAdd"
             android:src="@drawable/ic_add"
-            app:fabCradleRoundedCornerRadius="2dp"
-            app:layout_anchor="@+id/bottomAppBar"
+            
+            
         android:layout_alignParentEnd="true"
+     
         android:layout_alignParentBottom="true"
-        android:layout_marginRight="165dp"
+        android:layout_marginRight="@dimen/size165dp"
           
-            android:layout_marginBottom="40dp"/>
-
-       
-</RelativeLayout>
+            android:layout_marginBottom="@dimen/size40dp"/>
+       </RelativeLayout>
